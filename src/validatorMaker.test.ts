@@ -1,4 +1,4 @@
-import { and, make, merge, not, or, createValidatorMaker } from './index'
+import { and, make, merge, not, or, createValidatorMaker } from './validatorMaker'
 
 const alpha = make('[a-z]+', 'Only alphabets allowed.')
 const number = make('[0-9]+', 'Only numbers allowed.')
