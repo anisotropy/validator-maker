@@ -1,6 +1,16 @@
 {
   "name": "validator-maker",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Create complex validators from simple ones",
+  "keywords": [
+    "validator"
+  ],
+  "author": "Hodoug Joung",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anisotropy/validator-maker"
+  },
+  "homepage": "https://github.com/anisotropy/validator-maker",
   "type": "module",
   "main": "./dist/validator-maker.umd.cjs",
   "module": "./dist/validator-maker.js",
